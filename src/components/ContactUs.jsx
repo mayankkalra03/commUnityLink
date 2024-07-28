@@ -34,7 +34,7 @@ const ContactUs = () => {
       <header
         className="relative h-96 bg-cover bg-center flex items-center justify-center rounded-t-lg"
         style={{
-          backgroundImage: `url('/src/assets/contact.png')`,
+          backgroundImage: `url('/assets/contact.png')`,
         }}
       >
         <div className="absolute inset-0 bg-black rounded-t-lg bg-opacity-30"></div>

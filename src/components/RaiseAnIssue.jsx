@@ -49,7 +49,7 @@ const RaiseAnIssue = ({ onAddIssue }) => {
     <div
       className="bg-black/10 bg-cover p-8 rounded-lg shadow-lg text-white"
       style={{
-        backgroundImage: `url('/src/assets/raise-issue.jpeg')`,
+        backgroundImage: `url('/assets/raise-issue.jpeg')`,
       }}
     >
       <h2 className="text-3xl text-center font-semibold mb-6">
