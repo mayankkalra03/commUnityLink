@@ -1,4 +1,3 @@
-// src/components/RaiseAnIssue.jsx
 import React, { useState } from "react";
 import { Button, TextField } from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
