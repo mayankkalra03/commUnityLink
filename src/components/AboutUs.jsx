@@ -182,29 +182,30 @@ const AboutUs = () => {
       <section className="py-12 px-4 sm:px-8 text-center bg-black/10 rounded-b-lg">
         <h2 className="text-3xl font-semibold mb-4">
           Subscribe to our{" "}
-          <span className=" font-semibold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+          <span className="font-semibold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
             Newsletter
           </span>
         </h2>
         <p className="text-lg text-neutral-300 mb-4">
           Stay updated with the latest news and updates from our community.
         </p>
-        <div className="flex justify-center items-center space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <input
             type="email"
             placeholder="Enter your email"
-            className="py-3 px-4 rounded-md bg-neutral-800 text-white placeholder-neutral-500 focus:outline-none"
+            className="py-3 px-4 rounded-md bg-neutral-800 text-white placeholder-neutral-500 focus:outline-none w-full sm:w-auto"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <button
             onClick={handleSubscribe}
-            className="bg-gradient-to-r from-orange-500 to-red-800 text-white py-3 px-8 rounded-md shadow-lg hover:from-orange-600 hover:to-red-900 transition-colors duration-300"
+            className="bg-gradient-to-r from-orange-500 to-red-800 text-white py-3 px-8 rounded-md shadow-lg hover:from-orange-600 hover:to-red-900 transition-colors duration-300 w-full sm:w-auto"
           >
             Subscribe
           </button>
         </div>
       </section>
+
       <ToastContainer />
     </div>
   );
