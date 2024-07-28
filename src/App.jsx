@@ -10,6 +10,7 @@ import RaiseAnIssue from "./components/RaiseAnIssue";
 import SignInPage from "./components/SignInPage";
 import { useEffect, useState } from "react";
 import CreateAccount from "./components/CreateAccount";
+import Discussions from "./components/Discussions";
 
 const App = () => {
   const [issues, setIssues] = useState([]);
@@ -47,6 +48,7 @@ const App = () => {
               <Dashboard issues={issues} onResolveIssue={handleResolveIssue} />
             }
           />
+          <Route path="/discussions" element={<Discussions />} />
           <Route
             path="/issue"
             element={<RaiseAnIssue onAddIssue={handleAddIssue} />}
