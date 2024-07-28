@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import aboutBgImage from "../assets/about-image.jpg"; // Replace with your background image
-import teamMember1 from "../assets/profile-pictures/user1.jpg"; // Replace with your team member images
-import teamMember2 from "../assets/profile-pictures/user2.jpg"; // Replace with your team member images
-import teamMember3 from "../assets/profile-pictures/user3.jpg"; // Replace with your team member images
-import teamMember4 from "../assets/profile-pictures/user4.jpg"; // Replace with your team member images
-import teamMember5 from "../assets/profile-pictures/user5.jpg"; // Replace with your team member images
+import aboutBgImage from "/assets/about-image.jpg"; // Replace with your background image
+import teamMember1 from "/assets/profile-pictures/user1.jpg"; // Replace with your team member images
+import teamMember2 from "/assets/profile-pictures/user2.jpg"; // Replace with your team member images
+import teamMember3 from "/assets/profile-pictures/user3.jpg"; // Replace with your team member images
+import teamMember4 from "/assets/profile-pictures/user4.jpg"; // Replace with your team member images
+import teamMember5 from "/assets/profile-pictures/user5.jpg"; // Replace with your team member images
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

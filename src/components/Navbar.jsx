@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
-import logo from "../assets/logo.png";
-import profilePic from "../assets/profile-pictures/user1.jpg";
+import logo from "/assets/logo.png";
+import profilePic from "/assets/profile-pictures/user1.jpg";
 import { navItems } from "../constants";
 import { Link } from "react-router-dom";
 

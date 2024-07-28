@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import createAccountImage from "../assets/signin-image.jpg";
+import createAccountImage from "/assets/signin-image.jpg";
 
 const CreateAccountPage = () => {
   const [username, setUsername] = useState("");
