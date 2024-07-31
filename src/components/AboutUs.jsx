@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import aboutBgImage from "/assets/about-image.jpg"; // Replace with your background image
-import teamMember1 from "/assets/profile-pictures/parul.jpg"; // Replace with your team member images
-import teamMember2 from "/assets/profile-pictures/vishesh.jpg"; // Replace with your team member images
-import teamMember3 from "/assets/profile-pictures/nishant.jpg"; // Replace with your team member images
-import teamMember4 from "/assets/profile-pictures/sahil.jpg"; // Replace with your team member images
-import teamMember5 from "/assets/profile-pictures/mayank.png"; // Replace with your team member images
+import aboutBgImage from "/assets/about-image.jpg";
+import teamMember1 from "/assets/profile-pictures/parul.jpg";
+import teamMember2 from "/assets/profile-pictures/vishesh.jpg";
+import teamMember3 from "/assets/profile-pictures/nishant.jpg";
+import teamMember4 from "/assets/profile-pictures/sahil.jpg";
+import teamMember5 from "/assets/profile-pictures/mayank.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,9 +12,8 @@ const AboutUs = () => {
   const [email, setEmail] = useState("");
 
   const handleSubscribe = () => {
-    // Perform your subscribe action here (e.g., API call)
     toast.success("Subscribed successfully!");
-    setEmail(""); // Reset the email input
+    setEmail("");
   };
 
   return (

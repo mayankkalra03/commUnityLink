@@ -1,4 +1,3 @@
-// src/components/Dashboard.jsx
 import React, { useState, useEffect } from "react";
 import { Tabs, Tab, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";

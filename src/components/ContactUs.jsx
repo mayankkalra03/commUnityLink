@@ -154,7 +154,7 @@ const ContactUs = () => {
         </div>
       </section>
 
-      {/* Optional: Map Integration */}
+      {/* Map Integration */}
       <section className="py-12 px-4 sm:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-6">

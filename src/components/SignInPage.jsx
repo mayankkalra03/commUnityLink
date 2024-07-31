@@ -2,7 +2,7 @@
 import React from "react";
 import { TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import signinImage from "/assets/signin-image.jpg"; // Add an appropriate image in your assets folder
+import signinImage from "/assets/signin-image.jpg";
 
 const SignInPage = () => {
   return (

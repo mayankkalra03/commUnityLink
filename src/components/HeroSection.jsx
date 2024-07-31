@@ -1,13 +1,9 @@
 import video1 from "/assets/video1.mp4";
 import video2 from "/assets/video2.mp4";
-// import heroImage from "/assets/hero.jpg";
 
 const HeroSection = () => {
   return (
-    <div
-      className="flex flex-col mt-6 items-center bg-cover bg-center"
-      // style={{ backgroundImage: `url(${heroImage})` }}
-    >
+    <div className="flex flex-col mt-6 items-center bg-cover bg-center">
       <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center tracking-wide text-white">
         Welcome to
         <span className="font-ubuntu font-black bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
