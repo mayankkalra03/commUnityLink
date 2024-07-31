@@ -16,7 +16,38 @@ const Dashboard = () => {
   const [issues, setIssues] = useState([]);
 
   useEffect(() => {
-    const storedIssues = JSON.parse(localStorage.getItem("issues")) || [];
+    const defaultIssues = [
+      {
+        id: 1,
+        title: "Pothole on Main St",
+        text: "There is a large pothole on Main St that needs to be filled.",
+        user: "John Doe",
+        location: "Main St",
+        area: "Downtown",
+        status: "pending",
+      },
+      {
+        id: 2,
+        title: "Broken Streetlight",
+        text: "The streetlight on 5th Ave is broken and needs to be fixed.",
+        user: "Jane Smith",
+        location: "5th Ave",
+        area: "Uptown",
+        status: "pending",
+      },
+      {
+        id: 3,
+        title: "Graffiti on Wall",
+        text: "There is graffiti on the wall of the community center.",
+        user: "Jim Brown",
+        location: "Community Center",
+        area: "Midtown",
+        status: "resolved",
+      },
+    ];
+
+    const storedIssues =
+      JSON.parse(localStorage.getItem("issues")) || defaultIssues;
     setIssues(storedIssues);
   }, []);
 

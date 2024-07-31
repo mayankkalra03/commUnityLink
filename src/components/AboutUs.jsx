@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import aboutBgImage from "/assets/about-image.jpg"; // Replace with your background image
-import teamMember1 from "/assets/profile-pictures/user1.jpg"; // Replace with your team member images
-import teamMember2 from "/assets/profile-pictures/user2.jpg"; // Replace with your team member images
-import teamMember3 from "/assets/profile-pictures/user3.jpg"; // Replace with your team member images
-import teamMember4 from "/assets/profile-pictures/user4.jpg"; // Replace with your team member images
-import teamMember5 from "/assets/profile-pictures/user5.jpg"; // Replace with your team member images
+import teamMember1 from "/assets/profile-pictures/parul.jpg"; // Replace with your team member images
+import teamMember2 from "/assets/profile-pictures/vishesh.jpg"; // Replace with your team member images
+import teamMember3 from "/assets/profile-pictures/nishant.jpg"; // Replace with your team member images
+import teamMember4 from "/assets/profile-pictures/sahil.jpg"; // Replace with your team member images
+import teamMember5 from "/assets/profile-pictures/mayank.png"; // Replace with your team member images
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -127,8 +127,7 @@ const AboutUs = () => {
                 alt="Team Member 1"
                 className="w-32 h-32 rounded-full mx-auto mb-2"
               />
-              <h3 className="text-xl font-semibold">Amit Sharma</h3>
-              <p className="text-neutral-400">Community Engagement Lead</p>
+              <h3 className="text-xl font-semibold">Parul Mehra</h3>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
@@ -138,8 +137,7 @@ const AboutUs = () => {
                 alt="Team Member 2"
                 className="w-32 h-32 rounded-full mx-auto mb-2"
               />
-              <h3 className="text-xl font-semibold">Priya Gupta</h3>
-              <p className="text-neutral-400">Platform Manager</p>
+              <h3 className="text-xl font-semibold">Vishesh Bareja</h3>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
@@ -149,8 +147,7 @@ const AboutUs = () => {
                 alt="Team Member 3"
                 className="w-32 h-32 rounded-full mx-auto mb-2"
               />
-              <h3 className="text-xl font-semibold">Rahul Verma</h3>
-              <p className="text-neutral-400">Tech Lead</p>
+              <h3 className="text-xl font-semibold">Nishant Chaturvedi</h3>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
@@ -160,8 +157,7 @@ const AboutUs = () => {
                 alt="Team Member 4"
                 className="w-32 h-32 rounded-full mx-auto mb-2"
               />
-              <h3 className="text-xl font-semibold">Sana Khan</h3>
-              <p className="text-neutral-400">UI/UX Designer</p>
+              <h3 className="text-xl font-semibold">Sahil Shukla</h3>
             </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
@@ -171,8 +167,7 @@ const AboutUs = () => {
                 alt="Team Member 5"
                 className="w-32 h-32 rounded-full mx-auto mb-2"
               />
-              <h3 className="text-xl font-semibold">Neha Patel</h3>
-              <p className="text-neutral-400">Community Manager</p>
+              <h3 className="text-xl font-semibold">Mayank Kalra</h3>
             </div>
           </div>
         </div>
